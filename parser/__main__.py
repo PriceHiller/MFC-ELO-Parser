@@ -56,8 +56,6 @@ with open(teams_txt, "r") as match_data:
             team2_elo = result["team2"]
             team_elos[team1.name] = team1_elo
             team_elos[team2.name] = team2_elo
-
-
         except (IndexError, ValueError):
             print(f"Skipping the line: \"{match_line}\"\n"
                   f"\t - Reason: Was not formatted correctly\n"
@@ -67,7 +65,7 @@ with open(teams_txt, "r") as match_data:
     for team in team_elos.keys():
         output += \
             f"{team}: {team_elos[team]:.0f}\n" \
-
+ \
 print("Finished: Outputting to result.txt and to stdout\n\n")
 with open(root_path.parent / "result.txt", "w+") as result_txt:
     result_txt.write(output)
