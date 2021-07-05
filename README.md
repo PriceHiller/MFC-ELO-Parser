@@ -3,6 +3,12 @@ Created to simplify the bulk calculation of elo for teams
 
 ## Usage
 
+### Copy the Program
+
+```bash
+git clone git@github.com:treatybreaker/MFC-ELO-Parser.git
+```
+
 ### File Setup
 Create a file named `teams.txt` in the root directory (the directory above parser).
 
