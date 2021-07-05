@@ -6,7 +6,7 @@ Created to simplify the bulk calculation of elo for teams
 ### Copy the Program
 
 ```bash
-git clone git@github.com:treatybreaker/MFC-ELO-Parser.git
+git clone git@github.com:treatybreaker/MFC-ELO-Parser.git && cd MFC-ELO-Parser
 ```
 
 ### File Setup
