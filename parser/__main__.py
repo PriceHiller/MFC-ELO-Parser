@@ -64,8 +64,8 @@ with open(teams_txt, "r") as match_data:
 
     for team in team_elos.keys():
         output += \
-            f"{team}: {team_elos[team]:.0f}\n" \
- \
+            f"{team}: {team_elos[team]:.0f}\n"
+
 print("Finished: Outputting to result.txt and to stdout\n\n")
 with open(root_path.parent / "result.txt", "w+") as result_txt:
     result_txt.write(output)
